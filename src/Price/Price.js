@@ -34,7 +34,7 @@ function Price() {
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href={ link + msg + " *Vídeos para redes sociais*"}>Solicite</a>
+                                    <a className="btn" target="_blank" href={ link + msg + " *Vídeos para redes sociais*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ function Price() {
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href={ link + msg + " *Imagens para redes sociais*"}>Solicite</a>
+                                    <a className="btn" target="_blank" href={ link + msg + " *Imagens para redes sociais*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ function Price() {
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href={ link + msg + " *Imagens Animadas para redes sociais*"}>Solicite</a>
+                                    <a className="btn" target="_blank" href={ link + msg + " *Imagens Animadas para redes sociais*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +132,7 @@ function Price() {
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href={ link + msg + " *Criação de Websites*"}>Solicite</a>
+                                    <a className="btn" target="_blank" href={ link + msg + " *Criação de Websites*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +180,7 @@ function Price() {
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href={ link + msg + " *Limpeza de Computadores e Notebooks*"}>Solicite</a>
+                                    <a className="btn" target="_blank" href={ link + msg + " *Limpeza de Computadores e Notebooks*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
@@ -209,7 +209,7 @@ function Price() {
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href={ link + msg + " *Manutenção de Computadores e Notebooks*"}>Solicite</a>
+                                    <a className="btn" target="_blank" href={ link + msg + " *Manutenção de Computadores e Notebooks*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
@@ -236,7 +236,7 @@ function Price() {
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href={ link + msg + " *Montagem de PC Gamers*"}>Solicite</a>
+                                    <a className="btn" target="_blank" href={ link + msg + " *Montagem de PC Gamers*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
