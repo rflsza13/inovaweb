@@ -13,7 +13,7 @@ function Footer() {
             <div className="container-fluid">
                 <div className="container">
                     <div className="footer-info">
-                        <h3 className='text-light'>InovaWeb Tecnologia</h3>
+                        <h3 className='text-light'>InovaWeb Tecnologias</h3>
                         <h5 className='text-light'>Rua Sinharinha Frota, 55</h5>
                         <h6 className='text-light'>Centro - Capivari / SP</h6>
                         <div className='telefone text-light'>
