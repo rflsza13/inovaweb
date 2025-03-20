@@ -18,7 +18,7 @@ function Footer() {
                         <h6 className='text-light'>Centro - Capivari / SP</h6>
                         <div className='telefone text-light'>
                             <i className="fab fa-whatsapp"></i>
-                            <h6>{ telefone }</h6>
+                            <h6 className='text-light'>{ telefone }</h6>
                         </div>
                         {/* <div className="footer-social">
                             <a href={ facebook }><i className="fab fa-facebook-f"></i></a>
