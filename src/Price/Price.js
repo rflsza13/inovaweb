@@ -1,6 +1,8 @@
 import './Price.css';
 
 function Price() {
+    const link = 'https://wa.me/5519971177700?text=';
+    const msg = 'Olá, quero mais informações sobre'
   return (
     <div className="Price">
       <div className="price" id="price">
@@ -32,7 +34,7 @@ function Price() {
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href="">Solicite</a>
+                                    <a className="btn" href={ link + msg + " *Vídeos para redes sociais*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +61,7 @@ function Price() {
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href="">Solicite</a>
+                                    <a className="btn" href={ link + msg + " *Imagens para redes sociais*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
@@ -78,15 +80,15 @@ function Price() {
                                 <div className="price-description">
                                     <ul>
                                         <li><h6>Imagens animadas</h6></li>
-                                        <li>Logotipos</li>
-                                        <li>Publicações para mídias Sociais</li>
+                                        <li>Publicações para Facebook</li>
+                                        <li>Publicações para Instagram</li>
                                         <li>Stories para mídias Sociais</li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href="">Solicite</a>
+                                    <a className="btn" href={ link + msg + " *Imagens Animadas para redes sociais*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
@@ -107,26 +109,16 @@ function Price() {
                                     <h2><small>R$ </small>150<span> ao mês</span></h2>
                                 </div>
                             </div>
-                            <div className="price-body">
-                                <div className="price-description">
-                                    <h6>Já Incluso: </h6>
-                                    <ul>
-                                        <li>Hospedagem</li>
-                                        <li>Domínio</li>
-                                        <li>Reparos</li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div className="col-md-4 wow fadeInUp" data-wow-delay="0.0s">
                         <div className="price-item featured-item">
                             <div className="price-header">
                                 <div className="price-title">
-                                    <h2>Construção</h2>
+                                    <h2>a partir de</h2>
                                 </div>
                                 <div className="price-prices">
-                                    <p>A partir de</p>
+                                    <p></p>
                                     <h2><small>R$</small>500<span>,00</span></h2>
                                 </div>
                             </div>
@@ -134,13 +126,13 @@ function Price() {
                                 <div className="price-description">
                                     <ul>
                                         <li>Site Responsivo</li>
-                                        <li>100% customizado</li>
+                                        <li>100% Customizado</li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href="">Solicite</a>
+                                    <a className="btn" href={ link + msg + " *Criação de Websites*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
@@ -149,16 +141,11 @@ function Price() {
                         <div className="price-item">
                             <div className="price-header">
                                 <div className="price-prices">
-                                    <h5>Aplicativo</h5>
-                                    <h2><small>R$</small>200<span>,00</span></h2>
-                                </div>
-                            </div>
-                            <div className="price-body">
-                                <div className="price-description">
-                                    <ul>
-                                        <li>Applicativo adicional</li>
-                                        <li>Manutenção Inclusa </li>
-                                    </ul>
+                                    <h5>Já Incluso: </h5>
+                                    <br />
+                                    <h6> Hospedagem </h6>
+                                    <h6> Domínio </h6>
+                                    <h6> Manutenção </h6>
                                 </div>
                             </div>
                         </div>
@@ -193,7 +180,7 @@ function Price() {
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href="">Solicite</a>
+                                    <a className="btn" href={ link + msg + " *Limpeza de Computadores e Notebooks*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
@@ -206,7 +193,7 @@ function Price() {
                                 </div>
                                 <div className="price-prices">
                                     <p>A partir de</p>
-                                    <h2><small>R$</small>60<span>,00</span></h2>
+                                    <h2><small>R$</small>50<span>,00</span></h2>
                                 </div>
                             </div>
                             <div className="price-body">
@@ -222,7 +209,7 @@ function Price() {
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href="">Solicite</a>
+                                    <a className="btn" href={ link + msg + " *Manutenção de Computadores e Notebooks*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>
@@ -249,7 +236,7 @@ function Price() {
                             </div>
                             <div className="price-footer">
                                 <div className="price-action">
-                                    <a className="btn" href="">Solicite</a>
+                                    <a className="btn" href={ link + msg + " *Montagem de PC Gamers*"}>Solicite</a>
                                 </div>
                             </div>
                         </div>

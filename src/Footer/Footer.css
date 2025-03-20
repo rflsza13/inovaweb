@@ -125,3 +125,16 @@
         padding: 0 5px;
     }
 }
+
+.telefone {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.telefone h6 {
+    margin: 0 10px; 
+}

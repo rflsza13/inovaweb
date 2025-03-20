@@ -18,7 +18,7 @@ function Service() {
                             <div className="service-text">
                                 <h3>Web Design</h3>
                                 <p>
-                                    Criação de Logos e publicações para mídias sociais diversas.
+                                    Criação de Logos e publicações para diversas mídias sociais.
                                 </p>
                             </div>
                         </div>
@@ -55,9 +55,9 @@ function Service() {
                                 <i className="fa fa-desktop" aria-hidden="true"></i>
                             </div>
                             <div className="service-text">
-                                <h3>Montagem de Computador Gamer</h3>
+                                <h3>Montagem de PC Gamers</h3>
                                 <p>
-                                    Orçamento e montagem de computadores, peça por peça, para obter o melhor desempenho.
+                                    Orçamento e montagem de computadores, para obter o melhor desempenho nos Jogos.
                                 </p>
                             </div>
                         </div>
