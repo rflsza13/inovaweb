@@ -12,11 +12,11 @@ function Footer() {
       <div className="footer wow fadeIn" data-wow-delay="0.3s">
             <div className="container-fluid">
                 <div className="container">
-                    <div className="footer-info text-light">
-                        <h3>InovaWeb Tecnologia</h3>
-                        <h5>Rua Sinharinha Frota, 55</h5>
-                        <h6>Centro - Capivari / SP</h6>
-                        <div className='telefone'>
+                    <div className="footer-info">
+                        <h3 className='text-light'>InovaWeb Tecnologia</h3>
+                        <h5 className='text-light'>Rua Sinharinha Frota, 55</h5>
+                        <h6 className='text-light'>Centro - Capivari / SP</h6>
+                        <div className='telefone text-light'>
                             <i className="fab fa-whatsapp"></i>
                             <h6>{ telefone }</h6>
                         </div>
