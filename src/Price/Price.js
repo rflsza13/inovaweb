@@ -1,7 +1,7 @@
 import './Price.css';
 
 function Price() {
-    const link = 'https://wa.me/5519971177700?text=';
+    const link = 'https://wa.me/5519989905823?text=';
     const msg = 'Olá, quero mais informações sobre'
   return (
     <div className="Price">

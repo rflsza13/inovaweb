@@ -1,6 +1,6 @@
 import './Footer.css';
 
-let telefone = "(19) 97117-7700";
+let telefone = "(19) 9 8990-5823";
 let email = "";
 let facebook = "#";
 let instagram = "#";
@@ -14,8 +14,9 @@ function Footer() {
                 <div className="container">
                     <div className="footer-info">
                         <h3 className='text-light'>InovaWeb Tecnologias</h3>
-                        <h5 className='text-light'>Rua Sinharinha Frota, 55</h5>
-                        <h6 className='text-light'>Centro - Capivari / SP</h6>
+                        <h5 className='text-light'>Rua Paraná, 397</h5>
+                        <h6 className='text-light'>Vila Cardoso - Capivari / SP</h6>
+                        <h6 className='text-light'>Horários: Seg a Sex das 9 às 18hrs</h6>
                         <div className='telefone text-light'>
                             <i className="fab fa-whatsapp"></i>
                             <h6 className='text-light'>{ telefone }</h6>

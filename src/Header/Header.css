@@ -39,7 +39,7 @@
         width: 100%;
         padding: 30px 60px;
         background: transparent !important;
-        /* border-bottom: 1px dashed rgba(256, 256, 256, .2); */
+        border-bottom: 1px double rgba(256, 256, 256, .2);
         z-index: 9;
     }
     
@@ -83,7 +83,12 @@
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #ffffff !important;
+        background: #146175 !important;
+    }
+
+    .navbar .navbar-brand img {
+        max-width: 80%;
+        max-height: 90px;
     }
     
     .navbar .navbar-brand {

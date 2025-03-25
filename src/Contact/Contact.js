@@ -16,7 +16,7 @@ function Contact() {
 
     const enviarMensagem = (event) => {
         event.preventDefault();
-        var url = "https://wa.me/5519971177700?text=" // Seu numero
+        var url = "https://wa.me/5519989905823?text=" // Seu numero
             + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
             + "%0a" // Quebra de linha
             + "*Nome*: " + nome + "%0a" // Dados do formulário
